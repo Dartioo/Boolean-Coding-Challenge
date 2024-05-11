@@ -1,0 +1,100 @@
+body{
+    background-image:url(background.jpg);
+    background-size: cover;
+    display: block;
+    margin-top: 50px;
+}
+
+/* Tutti Margin:auto */
+.box, header img, .secondbox, nav{
+    margin: auto;
+}
+
+/* Box e logo */
+
+.box{
+    background-color: rgba(0, 0, 0, 0.589);
+    width: 1550px;
+    height: 1150px;
+    border-radius: 50px;
+}
+
+header img{
+    display: block;
+    width: 350px;
+    padding-top: 150px;
+}
+
+/* Contenitore */
+
+.secondbox{
+    width: 1250px;
+    height: 1000px;
+}
+
+/* Navigazione */
+
+nav{
+    text-align: center;
+    background-color: lime;
+    width: 100%;
+    line-height: 100%;
+    padding: 20px;
+}
+
+/* Testi */
+
+header h1{
+    color: lime;
+    text-align: center;
+    font-size: 40px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section h2{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+section h3{
+    margin-top: 6px;
+    font-size: 15px; 
+}
+
+section h2,h3{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: auto;
+}
+
+/* Blocchi carica */
+
+.arrow::before{
+    content:"\21A6";
+}
+
+main div{
+    border-radius: 5px;
+    margin-top: 4px;
+}
+
+/* 1 */
+main section:first-child > div{
+    width: 35%;
+    height: 40px;
+    background-color: orange;
+}
+
+/* 2 */
+main section:nth-child(2) > div{
+    width: 65%;
+    height: 40px;
+    background-color: lime;
+}
+
+/* 3 */
+main section:nth-child(3) > div{
+    width: 15%;
+    height: 40px;
+    background-color: rgb(173, 55, 55);
+}
